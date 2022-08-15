@@ -16,5 +16,12 @@ namespace Exercise3
         {
             InitializeComponent();
         }
+
+        private void btnext_Click(object sender, EventArgs e)
+        {
+            TuyChon tc = new TuyChon();
+            tc.Show();
+            this.Hide();
+        }
     }
 }
