@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace Exercise3
 {
@@ -40,39 +41,64 @@ namespace Exercise3
 
         private void btok_Click(object sender, EventArgs e)
         {
-            if (rdbacnhat.Checked == true)
+            int a, b;
+            if (String.IsNullOrEmpty(txta.Text.Trim()) || String.IsNullOrEmpty(txtb.Text.Trim()))
             {
-                GiaiPTBacNhat();
+                DialogResult result = MessageBox.Show("Chua nhap a, b", "Minh Hoang", MessageBoxButtons.OK);
             }
-            else if (rdbcnn.Checked == true)
+            else if(!int.TryParse(txta.Text, out a) || !int.TryParse(txtb.Text, out b)) 
             {
-                BCNN();
+                MessageBox.Show("Nhap dung so a, b di thi moi tinh duoc");
             }
-            else if (rducln.Checked == true)
+            else
             {
-                UCLN();
+                if (rdbacnhat.Checked == true)
+                {
+                    GiaiPTBacNhat();
+                }
+                else if (rdbcnn.Checked == true)
+                {
+                    txtkq.Text = BCNN(a, b).ToString();
+                }
+                else if (rducln.Checked == true)
+                {
+                    txtkq.Text = UCLN(a,b).ToString();
+                }
             }
         }
-
-        private void UCLN()
+        //su dung de qui
+        public int UCLN(int a, int b)
         {
-            if(Convert.ToInt32(txta.Text) == 0 && Convert.ToInt32(txtb.Text) == 0)
-            {
-                MessageBox.Show("Phuong trinh vo so nghiem");
-            }
-            if(Convert.ToInt32(txta.Text) == 0 && Convert.ToInt32(txtb.Text) != 0)
-            {
-                MessageBox.Show("Phuong trinh vo nghiem");
-            }
-            if(Convert.ToInt32(txta.Text) == 0 && Convert.ToInt32(txtb.Text) == 0)
+            return b == 0 ? a : UCLN(b, a % b);
         }
 
-        private void BCNN()
+        public int BCNN(int a, int b)
         {
+            return a * b / UCLN(a, b);
         }
 
         private void GiaiPTBacNhat()
         {
+
+            if (Convert.ToInt32(txta.Text) == 0)
+            {
+                if (Convert.ToInt32(txtb.Text) == 0)
+                {
+
+                    MessageBox.Show("Phuong trinh vo so nghiem");
+                }
+                else
+                {
+                    MessageBox.Show("Phuong trinh vo nghiem");
+                }
+            }
+            else
+            {
+                float kq = 0;
+                kq = -int.Parse(txtb.Text) / int.Parse(txta.Text);
+                txtkq.Text = kq.ToString();
+            }
+
         }
     }
 }

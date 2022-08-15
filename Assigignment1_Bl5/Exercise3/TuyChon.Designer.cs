@@ -37,13 +37,15 @@
             this.rdbcnn = new System.Windows.Forms.RadioButton();
             this.rducln = new System.Windows.Forms.RadioButton();
             this.rdbacnhat = new System.Windows.Forms.RadioButton();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.groupkq = new System.Windows.Forms.GroupBox();
             this.btok = new System.Windows.Forms.Button();
             this.btreset = new System.Windows.Forms.Button();
             this.btexit = new System.Windows.Forms.Button();
             this.btnext = new System.Windows.Forms.Button();
+            this.txtkq = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupkq.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -136,14 +138,15 @@
             this.rdbacnhat.Text = "Giải PT bậc nhất";
             this.rdbacnhat.UseVisualStyleBackColor = true;
             // 
-            // groupBox3
+            // groupkq
             // 
-            this.groupBox3.Location = new System.Drawing.Point(39, 281);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(566, 125);
-            this.groupBox3.TabIndex = 1;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Kết quả tính toán";
+            this.groupkq.Controls.Add(this.txtkq);
+            this.groupkq.Location = new System.Drawing.Point(39, 281);
+            this.groupkq.Name = "groupkq";
+            this.groupkq.Size = new System.Drawing.Size(566, 125);
+            this.groupkq.TabIndex = 1;
+            this.groupkq.TabStop = false;
+            this.groupkq.Text = "Kết quả tính toán";
             // 
             // btok
             // 
@@ -185,6 +188,14 @@
             this.btnext.UseVisualStyleBackColor = true;
             this.btnext.Click += new System.EventHandler(this.btnext_Click);
             // 
+            // txtkq
+            // 
+            this.txtkq.Location = new System.Drawing.Point(170, 51);
+            this.txtkq.Name = "txtkq";
+            this.txtkq.ReadOnly = true;
+            this.txtkq.Size = new System.Drawing.Size(221, 27);
+            this.txtkq.TabIndex = 4;
+            // 
             // TuyChon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -194,7 +205,7 @@
             this.Controls.Add(this.btexit);
             this.Controls.Add(this.btreset);
             this.Controls.Add(this.btok);
-            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupkq);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "TuyChon";
@@ -203,6 +214,8 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupkq.ResumeLayout(false);
+            this.groupkq.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -218,10 +231,11 @@
         private System.Windows.Forms.RadioButton rdbcnn;
         private System.Windows.Forms.RadioButton rducln;
         private System.Windows.Forms.RadioButton rdbacnhat;
-        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.GroupBox groupkq;
         private System.Windows.Forms.Button btok;
         private System.Windows.Forms.Button btreset;
         private System.Windows.Forms.Button btexit;
         private System.Windows.Forms.Button btnext;
+        private System.Windows.Forms.TextBox txtkq;
     }
 }
