@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PRN211\\Assigignment1_Bl5\\Exercise3\\Exercise3.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\Prn211_bl5\\Assigignment1_Bl5\\Exercise3\\Exercise3.csproj",
       "projectName": "Exercise3",
-      "projectPath": "D:\\PRN211\\Assigignment1_Bl5\\Exercise3\\Exercise3.csproj",
+      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\Prn211_bl5\\Assigignment1_Bl5\\Exercise3\\Exercise3.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\PRN211\\Assigignment1_Bl5\\Exercise3\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\Prn211_bl5\\Assigignment1_Bl5\\Exercise3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

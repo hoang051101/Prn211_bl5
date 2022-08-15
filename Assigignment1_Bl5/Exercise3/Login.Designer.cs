@@ -100,6 +100,7 @@
             this.btlogin.TabIndex = 5;
             this.btlogin.Text = "Login";
             this.btlogin.UseVisualStyleBackColor = true;
+            this.btlogin.Click += new System.EventHandler(this.btlogin_Click);
             // 
             // btreset
             // 
@@ -141,6 +142,7 @@
             // 
             this.txtpass.Location = new System.Drawing.Point(152, 124);
             this.txtpass.Name = "txtpass";
+            this.txtpass.PasswordChar = '*';
             this.txtpass.Size = new System.Drawing.Size(238, 23);
             this.txtpass.TabIndex = 10;
             // 

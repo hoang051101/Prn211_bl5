@@ -52,34 +52,36 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Impact", 16.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(57, 28);
+            this.label1.Location = new System.Drawing.Point(50, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(257, 35);
+            this.label1.Size = new System.Drawing.Size(212, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "Dental Payment Form";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(27, 92);
+            this.label2.Location = new System.Drawing.Point(24, 69);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(111, 20);
+            this.label2.Size = new System.Drawing.Size(90, 15);
             this.label2.TabIndex = 1;
             this.label2.Text = "Tên khách hàng";
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(185, 85);
+            this.txtName.Location = new System.Drawing.Point(162, 64);
+            this.txtName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(211, 27);
+            this.txtName.Size = new System.Drawing.Size(185, 23);
             this.txtName.TabIndex = 2;
             // 
             // caovoichk
             // 
             this.caovoichk.AutoSize = true;
-            this.caovoichk.Location = new System.Drawing.Point(45, 148);
+            this.caovoichk.Location = new System.Drawing.Point(39, 111);
+            this.caovoichk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.caovoichk.Name = "caovoichk";
-            this.caovoichk.Size = new System.Drawing.Size(81, 24);
+            this.caovoichk.Size = new System.Drawing.Size(66, 19);
             this.caovoichk.TabIndex = 3;
             this.caovoichk.Text = "Cạo vôi";
             this.caovoichk.UseVisualStyleBackColor = true;
@@ -87,9 +89,10 @@
             // chupchk
             // 
             this.chupchk.AutoSize = true;
-            this.chupchk.Location = new System.Drawing.Point(45, 255);
+            this.chupchk.Location = new System.Drawing.Point(39, 191);
+            this.chupchk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chupchk.Name = "chupchk";
-            this.chupchk.Size = new System.Drawing.Size(131, 24);
+            this.chupchk.Size = new System.Drawing.Size(109, 19);
             this.chupchk.TabIndex = 4;
             this.chupchk.Text = "Chụp hình răng";
             this.chupchk.UseVisualStyleBackColor = true;
@@ -97,9 +100,10 @@
             // taytrangchk
             // 
             this.taytrangchk.AutoSize = true;
-            this.taytrangchk.Location = new System.Drawing.Point(45, 200);
+            this.taytrangchk.Location = new System.Drawing.Point(39, 150);
+            this.taytrangchk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.taytrangchk.Name = "taytrangchk";
-            this.taytrangchk.Size = new System.Drawing.Size(93, 24);
+            this.taytrangchk.Size = new System.Drawing.Size(75, 19);
             this.taytrangchk.TabIndex = 5;
             this.taytrangchk.Text = "Tẩy trắng";
             this.taytrangchk.UseVisualStyleBackColor = true;
@@ -107,76 +111,79 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(262, 152);
+            this.label3.Location = new System.Drawing.Point(229, 114);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 20);
+            this.label3.Size = new System.Drawing.Size(52, 15);
             this.label3.TabIndex = 6;
             this.label3.Text = "$100.000";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(262, 204);
+            this.label4.Location = new System.Drawing.Point(229, 153);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(71, 20);
+            this.label4.Size = new System.Drawing.Size(55, 15);
             this.label4.TabIndex = 7;
             this.label4.Text = "$1.200.00";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(262, 259);
+            this.label5.Location = new System.Drawing.Point(229, 194);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(68, 20);
+            this.label5.Size = new System.Drawing.Size(52, 15);
             this.label5.TabIndex = 8;
             this.label5.Text = "$200.000";
             // 
             // nmrtramrang
             // 
-            this.nmrtramrang.Location = new System.Drawing.Point(122, 298);
+            this.nmrtramrang.Location = new System.Drawing.Point(107, 224);
+            this.nmrtramrang.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.nmrtramrang.Name = "nmrtramrang";
-            this.nmrtramrang.Size = new System.Drawing.Size(71, 27);
+            this.nmrtramrang.Size = new System.Drawing.Size(62, 23);
             this.nmrtramrang.TabIndex = 9;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(27, 305);
+            this.label6.Location = new System.Drawing.Point(24, 229);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(76, 20);
+            this.label6.Size = new System.Drawing.Size(60, 15);
             this.label6.TabIndex = 10;
             this.label6.Text = "Trám răng";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(262, 298);
+            this.label7.Location = new System.Drawing.Point(229, 224);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(85, 20);
+            this.label7.Size = new System.Drawing.Size(66, 15);
             this.label7.TabIndex = 11;
             this.label7.Text = "$80.000/cái";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(122, 364);
+            this.label8.Location = new System.Drawing.Point(107, 273);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(42, 20);
+            this.label8.Size = new System.Drawing.Size(32, 15);
             this.label8.TabIndex = 12;
             this.label8.Text = "Total";
             // 
             // txttotal
             // 
-            this.txttotal.Location = new System.Drawing.Point(185, 357);
+            this.txttotal.Location = new System.Drawing.Point(162, 268);
+            this.txttotal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txttotal.Name = "txttotal";
-            this.txttotal.Size = new System.Drawing.Size(171, 27);
+            this.txttotal.Size = new System.Drawing.Size(150, 23);
             this.txttotal.TabIndex = 13;
             // 
             // btthoat
             // 
-            this.btthoat.Location = new System.Drawing.Point(57, 409);
+            this.btthoat.Location = new System.Drawing.Point(50, 307);
+            this.btthoat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btthoat.Name = "btthoat";
-            this.btthoat.Size = new System.Drawing.Size(94, 29);
+            this.btthoat.Size = new System.Drawing.Size(82, 22);
             this.btthoat.TabIndex = 14;
             this.btthoat.Text = "Thoát";
             this.btthoat.UseVisualStyleBackColor = true;
@@ -184,9 +191,10 @@
             // 
             // bttinhtien
             // 
-            this.bttinhtien.Location = new System.Drawing.Point(262, 409);
+            this.bttinhtien.Location = new System.Drawing.Point(229, 307);
+            this.bttinhtien.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bttinhtien.Name = "bttinhtien";
-            this.bttinhtien.Size = new System.Drawing.Size(94, 29);
+            this.bttinhtien.Size = new System.Drawing.Size(82, 22);
             this.bttinhtien.TabIndex = 15;
             this.bttinhtien.Text = "Tính tiền";
             this.bttinhtien.UseVisualStyleBackColor = true;
@@ -194,9 +202,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(423, 450);
+            this.ClientSize = new System.Drawing.Size(370, 338);
             this.Controls.Add(this.bttinhtien);
             this.Controls.Add(this.btthoat);
             this.Controls.Add(this.txttotal);
@@ -213,6 +221,7 @@
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.nmrtramrang)).EndInit();

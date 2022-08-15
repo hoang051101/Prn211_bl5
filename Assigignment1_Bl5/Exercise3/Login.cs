@@ -24,5 +24,26 @@ namespace Exercise3
                 this.Close();
             }
         }
+
+        private void btlogin_Click(object sender, EventArgs e)
+        {
+            if (txtusername.Text != string.Empty && txtpass.Text != string.Empty)
+            {
+                if (txtusername.Text == "Admin" || txtusername.Text == "admin")
+                {
+                    if (txtpass.Text == "123456")
+                    {
+                        PhepTinh p = new PhepTinh();
+                        p.Show();
+                        this.Hide();
+                    }
+                    else
+                        MessageBox.Show("UserName or PassWord is wrong! Try again later.");
+                }
+
+            }
+            else
+                MessageBox.Show("Ban hay nhap vao tai khoan va mat khau.");
+        }
     }
 }

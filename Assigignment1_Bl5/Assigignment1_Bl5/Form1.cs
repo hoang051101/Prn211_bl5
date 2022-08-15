@@ -27,27 +27,38 @@ namespace Assigignment1_Bl5
 
         private void bttinhtien_Click(object sender, EventArgs e)
         {
-            string name=txtName.Text;
-            if (name == null)
+            
+            if (String.IsNullOrEmpty(txtName.Text.Trim()))
             {
-                MessageBox.Show("Chưa nhập tên khách thì tính tiền kiểu gì?");
-                this.Show();
+                DialogResult result = MessageBox.Show("Chua nhap ten khach", "Minh Hoang", MessageBoxButtons.OK);
             }
             else
             {
-                int total = 0;
-                if(caovoichk.Checked == true)
-                {
-                    total += 100000;
-                }else if(taytrangchk.Checked == true)
-                {
-                    total += 1200000;
-                }else if(chupchk.Checked == true)
-                {
-                    total += 200000;
-                }
-                return ;
+                calcu();
             }
+
+
         }
+
+        private void calcu()
+        {
+            int total = 0;
+            if (caovoichk.Checked == true)
+            {
+                total += 100000;
+            }
+            if (taytrangchk.Checked == true)
+            {
+                total += 1200000;
+            }
+            if (chupchk.Checked == true)
+            {
+                total += 200000;
+            }
+            total += Convert.ToInt32( nmrtramrang.Value * 80000);
+            txttotal.Text = total.ToString();
+        }
+
+
     }
 }
