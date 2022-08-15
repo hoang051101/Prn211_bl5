@@ -153,6 +153,7 @@
             this.btok.TabIndex = 2;
             this.btok.Text = "OK";
             this.btok.UseVisualStyleBackColor = true;
+            this.btok.Click += new System.EventHandler(this.btok_Click);
             // 
             // btreset
             // 
@@ -162,6 +163,7 @@
             this.btreset.TabIndex = 3;
             this.btreset.Text = "Reset";
             this.btreset.UseVisualStyleBackColor = true;
+            this.btreset.Click += new System.EventHandler(this.btreset_Click);
             // 
             // btexit
             // 
@@ -171,6 +173,7 @@
             this.btexit.TabIndex = 4;
             this.btexit.Text = "Exit";
             this.btexit.UseVisualStyleBackColor = true;
+            this.btexit.Click += new System.EventHandler(this.btexit_Click);
             // 
             // btnext
             // 

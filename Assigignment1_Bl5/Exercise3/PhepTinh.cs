@@ -39,9 +39,39 @@ namespace Exercise3
             }
             else
             {
-               
+                caculate();
 
             }
+        }
+
+        private void caculate()
+        {
+            string option = Convert.ToString(cbpheptinh.Text.Trim());
+            float kq =0;
+            switch (option)
+            {
+                case "Cộng":
+                    kq = Convert.ToInt32(txta.Text) + Convert.ToInt32(txtb.Text);
+                    break;
+                case "Trừ":
+                    kq = Convert.ToInt32(txta.Text) - Convert.ToInt32(txtb.Text);
+                    break;
+                case "Nhân":
+                    kq = Convert.ToInt32(txta.Text) * Convert.ToInt32(txtb.Text);
+                    break;
+                case "Chia":
+                    if (Convert.ToInt32(txtb.Text) != 0)
+                    {
+                        kq = Convert.ToInt32(txta.Text) / Convert.ToInt32(txtb.Text);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error");
+                    }
+                    break;
+
+            }
+            txtketqua.Text = kq.ToString();
         }
     }
 }
