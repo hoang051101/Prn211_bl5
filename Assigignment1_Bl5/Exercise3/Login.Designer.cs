@@ -115,6 +115,7 @@
             this.btreset.TabIndex = 6;
             this.btreset.Text = "Reset";
             this.btreset.UseVisualStyleBackColor = true;
+            this.btreset.Click += new System.EventHandler(this.btreset_Click);
             // 
             // btexit
             // 

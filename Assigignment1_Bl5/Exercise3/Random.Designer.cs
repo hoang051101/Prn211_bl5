@@ -36,7 +36,7 @@
             // 
             // btplay
             // 
-            this.btplay.Location = new System.Drawing.Point(112, 227);
+            this.btplay.Location = new System.Drawing.Point(110, 227);
             this.btplay.Name = "btplay";
             this.btplay.Size = new System.Drawing.Size(94, 29);
             this.btplay.TabIndex = 0;
@@ -63,7 +63,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(360, 450);
+            this.ClientSize = new System.Drawing.Size(353, 450);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.nmrsinhvien);
             this.Controls.Add(this.btplay);

@@ -75,6 +75,10 @@ namespace Exercise3
 
         }
 
-        
+        private void btreset_Click(object sender, EventArgs e)
+        {
+            txtusername.Text = string.Empty;
+            txtpass.Text = string.Empty;
+        }
     }
 }
