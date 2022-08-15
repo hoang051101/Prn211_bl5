@@ -180,6 +180,7 @@
             this.btnext.TabIndex = 5;
             this.btnext.Text = "Next";
             this.btnext.UseVisualStyleBackColor = true;
+            this.btnext.Click += new System.EventHandler(this.btnext_Click);
             // 
             // TuyChon
             // 

@@ -45,5 +45,36 @@ namespace Exercise3
             else
                 MessageBox.Show("Ban hay nhap vao tai khoan va mat khau.");
         }
+
+        private void rdvi_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rdvi.Checked == true)
+            {
+                rdvi.Text = " Việt";
+                rden.Text = "Anh";
+                lblogin.Text = "Đăng nhập";
+                lbusername.Text = "Tên đăng nhập";
+                lbpass.Text = "Mật khẩu";
+                linkforget.Text = "Quên mật khẩu";
+                btlogin.Text = "Đăng nhập";
+                btexit.Text = "Thoát";
+                btreset.Text = "Hủy";
+            }
+            else
+            {
+                rdvi.Text = " VI";
+                rden.Text = "EN";
+                lblogin.Text = "Login";
+                lbusername.Text = "User Name";
+                lbpass.Text = "Pass word";
+                linkforget.Text = "Forget password";
+                btlogin.Text = "Login";
+                btexit.Text = "Exit";
+                btreset.Text = "Reset";
+            }
+
+        }
+
+        
     }
 }

@@ -8,20 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Exercise3
+namespace Exercise4
 {
-    public partial class TuyChon : Form
+    public partial class Form1 : Form
     {
-        public TuyChon()
+        public Form1()
         {
             InitializeComponent();
         }
 
-        private void btnext_Click(object sender, EventArgs e)
-        {
-            Random rd = new Random();
-            rd.Show();
-            this.Hide();
-        }
     }
 }
