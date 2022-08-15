@@ -97,6 +97,11 @@
             // cbpheptinh
             // 
             this.cbpheptinh.FormattingEnabled = true;
+            this.cbpheptinh.Items.AddRange(new object[] {
+            "Cộng",
+            "Trừ",
+            "Nhân",
+            "Chia"});
             this.cbpheptinh.Location = new System.Drawing.Point(222, 270);
             this.cbpheptinh.Name = "cbpheptinh";
             this.cbpheptinh.Size = new System.Drawing.Size(180, 28);
@@ -110,6 +115,7 @@
             this.btthuchien.TabIndex = 7;
             this.btthuchien.Text = "Thực hiện";
             this.btthuchien.UseVisualStyleBackColor = true;
+            this.btthuchien.Click += new System.EventHandler(this.btthuchien_Click);
             // 
             // btreset
             // 
@@ -119,6 +125,7 @@
             this.btreset.TabIndex = 8;
             this.btreset.Text = "Reset";
             this.btreset.UseVisualStyleBackColor = true;
+            this.btreset.Click += new System.EventHandler(this.btreset_Click);
             // 
             // btnext
             // 

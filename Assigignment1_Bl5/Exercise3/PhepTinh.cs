@@ -22,6 +22,25 @@ namespace Exercise3
             TuyChon tc = new TuyChon();
             tc.Show();
             this.Hide();
+            
+        }
+
+        private void btreset_Click(object sender, EventArgs e)
+        {
+            txta.Text = String.Empty;
+            txtb.Text = String.Empty;
+        }
+
+        private void btthuchien_Click(object sender, EventArgs e)
+        {
+            if (String.IsNullOrEmpty(txta.Text.Trim()) || String.IsNullOrEmpty(txtb.Text.Trim()))
+            {
+                DialogResult result = MessageBox.Show("enter a number", "System", MessageBoxButtons.OK);
+            }
+            else
+            {
+
+            }
         }
     }
 }
