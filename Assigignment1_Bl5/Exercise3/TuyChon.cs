@@ -21,8 +21,8 @@ namespace Exercise3
         private void btnext_Click(object sender, EventArgs e)
         {
             Random rd = new Random();
-            rd.Show();
-            this.Hide();
+            rd.ShowDialog();
+            this.Close();
         }
 
         private void btexit_Click(object sender, EventArgs e)

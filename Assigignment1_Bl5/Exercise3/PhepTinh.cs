@@ -20,8 +20,8 @@ namespace Exercise3
         private void btnext_Click(object sender, EventArgs e)
         {
             TuyChon tc = new TuyChon();
-            tc.Show();
-            this.Hide();
+            tc.ShowDialog();
+            this.Close();
             
         }
 

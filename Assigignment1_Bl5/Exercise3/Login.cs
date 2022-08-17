@@ -34,8 +34,8 @@ namespace Exercise3
                     if (txtpass.Text == "123456")
                     {
                         PhepTinh p = new PhepTinh();
-                        p.Show();
-                        this.Hide();
+                        p.ShowDialog();
+                        this.Close();
                     }
                     else
                         MessageBox.Show("UserName or PassWord is wrong! Try again later.");

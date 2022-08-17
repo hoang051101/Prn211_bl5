@@ -5,7 +5,6 @@ C:\Users\Admin\Documents\GitHub\Prn211_bl5\Assigignment1_Bl5\Exercise4\bin\Debug
 C:\Users\Admin\Documents\GitHub\Prn211_bl5\Assigignment1_Bl5\Exercise4\bin\Debug\net5.0-windows\Exercise4.dll
 C:\Users\Admin\Documents\GitHub\Prn211_bl5\Assigignment1_Bl5\Exercise4\bin\Debug\net5.0-windows\Exercise4.pdb
 C:\Users\Admin\Documents\GitHub\Prn211_bl5\Assigignment1_Bl5\Exercise4\obj\Debug\net5.0-windows\Exercise4.csproj.AssemblyReference.cache
-C:\Users\Admin\Documents\GitHub\Prn211_bl5\Assigignment1_Bl5\Exercise4\obj\Debug\net5.0-windows\Exercise4.Form1.resources
 C:\Users\Admin\Documents\GitHub\Prn211_bl5\Assigignment1_Bl5\Exercise4\obj\Debug\net5.0-windows\Exercise4.csproj.GenerateResource.cache
 C:\Users\Admin\Documents\GitHub\Prn211_bl5\Assigignment1_Bl5\Exercise4\obj\Debug\net5.0-windows\Exercise4.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Admin\Documents\GitHub\Prn211_bl5\Assigignment1_Bl5\Exercise4\obj\Debug\net5.0-windows\Exercise4.AssemblyInfoInputs.cache
@@ -16,3 +15,7 @@ C:\Users\Admin\Documents\GitHub\Prn211_bl5\Assigignment1_Bl5\Exercise4\obj\Debug
 C:\Users\Admin\Documents\GitHub\Prn211_bl5\Assigignment1_Bl5\Exercise4\obj\Debug\net5.0-windows\Exercise4.pdb
 C:\Users\Admin\Documents\GitHub\Prn211_bl5\Assigignment1_Bl5\Exercise4\obj\Debug\net5.0-windows\Exercise4.genruntimeconfig.cache
 C:\Users\Admin\Documents\GitHub\Prn211_bl5\Assigignment1_Bl5\Exercise4\obj\Debug\net5.0-windows\ref\Exercise4.dll
+C:\Users\Admin\Documents\GitHub\Prn211_bl5\Assigignment1_Bl5\Exercise4\obj\Debug\net5.0-windows\Exercise4.Lunar.resources
+C:\Users\Admin\Documents\GitHub\Prn211_bl5\Assigignment1_Bl5\Exercise4\obj\Debug\net5.0-windows\Exercise4.frmMain.resources
+C:\Users\Admin\Documents\GitHub\Prn211_bl5\Assigignment1_Bl5\Exercise4\obj\Debug\net5.0-windows\Exercise4.StarUp.resources
+C:\Users\Admin\Documents\GitHub\Prn211_bl5\Assigignment1_Bl5\Exercise4\obj\Debug\net5.0-windows\Exercise4.Properties.Resources.resources
